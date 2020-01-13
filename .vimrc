@@ -7,6 +7,8 @@ set noshowmode
 set hlsearch
 set ignorecase
 set smartcase
+set laststatus=2
+
 ab Sout System.out.println("");
 
 call plug#begin('~/.vim/plugged')
