@@ -9,3 +9,7 @@ set ignorecase
 set smartcase
 ab Sout System.out.println("");
 
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/goyo.vim'
+call plug#end()
+
